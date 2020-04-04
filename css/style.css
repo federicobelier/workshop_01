@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
+
+#sobre-mi-text {
+    font-size: 25px;
+}
+
+.habilidad {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#contacto {
+    height: 600px;
+}
