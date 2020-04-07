@@ -8,11 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3447dc54e6.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
   </head>
   <style>
       body{
-          background-color: black;
+          background-color:;
       }
       .navbar-brand{
           font-family: Unica one;
@@ -22,67 +23,129 @@
           background-image:url("img/subway.gif");
           background-repeat: no-repeat;
           background-size:cover ;
+          margin: 0;
+          padding: 0;
 
       }
   </style>
   <body>
 
     <!--INICIO NAVBAR-->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand" href="#"> Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item ">
-              <a class="nav-link" href="#">Sobre mí <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Habilidades</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Testimonios</a>
-            </li>
+    <div class="conainer">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><i class="fas fa-cannabis p-1"> Portfolio</i></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Sobre mí <span class="sr-only">(current)</span></a>
+              </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Testimonios</a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>  
     <!--FIN NAVBAR-->
 
     <!--INICIO PRESENTACIÓN-->
     <div id="video">
-        <div class="container p-5" >
+        <div class="container p-5">
             <div class="row">
                 <div class="col-sm-12 col-md-6 p-3 pt-3 text-center">
-                    <img src="https://source.unsplash.com/300x300/?robot"  class="img-fluid" alt="Responsive image">
+                    <img src="https://source.unsplash.com/300x300/?robot"  class="img-fluid rounded" alt="Responsive image">
                 </div>
-                <div class="col-sm-12 col-md-6 p-3">
-                    <h1>Federico E. Belier Banderas</h1>
+                <div class="col-sm-12 col-md-6 p-3 text-center">
+                    <h1>Federico Belier</h1>
                     <h2>Fullstack Developer</h2>
-                    <p class="h4 p-4">"code can´t lie"</p>
+                    <blockquote class="h4 p-4">"code can´t lie"</blockquote>
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda vitae recusandae hic quisquam, quae magnam possimus nemo ex laboriosam! Nulla temporibus beatae voluptatem? Reiciendis beatae perferendis illum cupiditate ab?</p>
                 </div>
             </div>
         </div>
     </div>
     <!--FIN PRESENTACIÓN-->
-    <hr>
-    <!--Inicio Sobre Mi-->
-    <div class="container"></div>
-        <p class="lead text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam aliquam labore fugiat dolor quae cum voluptatum a, enim quibusdam unde libero magnam corrupti esse, ad tempora repudiandae officia iste!
-        </p>
-    </div>
-    <!--Fin Sobre Mi-->
 
+  
+
+    <!--Inicio Portfolio-->
+    <div class="container p-5">
+      <div class="row row-cols-1 row-cols-md-6">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://source.unsplash.com/300x300/?robot" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://source.unsplash.com/300x300/?robot" class="card-img-top" alt="..">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://source.unsplash.com/300x300/?robot" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://source.unsplash.com/300x300/?robot" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!--Fin Portfolio-->
+ 
+    <!--Inicio Contacto-->
+    <div class="col-12 text-center">
+      <h2 class="pt-5 pb-5">Contacto y Perfiles</h2>
+    </div>
+    <div class="row pb-5">
+      <div class="col-3 text-center h1">
+        <i class="fab fa-github"></i>
+      </div>
+      <div class="col-3 text-center h1">
+        <i class="fas fa-envelope"></i>
+        
+      </div>
+      <div class="col-3 text-center h1">
+        <i class="fab fa-whatsapp"></i>
+      </div>
+      <div class="col-3 text-center h1">
+        <i class="fab fa-linkedin"></i>
+      </div> 
+    </div>
+    <!---Fin Contacto-->
       
 
 
@@ -91,8 +154,14 @@
 
 
 
-
-
+    
+    <!--Inicio Footer-->
+    <footer>
+      <div class="container text-center py-4">
+        <p>Thanks for scroll. that´s all</p>
+      </div>
+    </footer>
+    <!--Fin Footer-->
 
 
     <!-- Optional JavaScript -->
