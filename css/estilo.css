@@ -1,0 +1,89 @@
+
+body{
+    background-color:black;
+}
+.navbar-brand{
+    font-family: 'Nosifer';
+    font-size: 25px;
+    color: black;
+}
+
+#video{
+    background-image:url("img/subway.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+.slider1 {
+  padding-right: 70%;
+}
+.slider2{
+  margin-left: 100%;
+}
+nav li {
+  display: inline;
+  margin: 0 1rem;
+}
+.navbar{
+    background-color: whitesmoke;
+}
+/*Presentasion*/
+header h1{
+    color:whitesmoke;
+}
+header{
+    color: yellow;
+    font-family: roboto;
+}
+
+/*Fin Presentacion*/
+
+/*Portfolio*/
+#Port h1{
+    color: yellow;
+    padding: 50%;
+}
+#slider1{
+    padding-top: 30%;
+    margin-left: 20%;
+    
+}
+#slider2{
+    padding-top: 10%;
+    margin-left: -50%;
+    
+}
+
+#portfolio{
+    background-color: black;
+}
+.links{
+    text-decoration: none;
+}
+/*fin portfolip*/
+/*Habilidades*/
+#Habilidades{
+    background-image: url(img/matrix.gif);
+    background-size: cover;
+}
+#Habilidades h2{
+    color: yellow;
+}
+i{
+    color: whitesmoke;
+    transition: all .5s ease;
+}
+i :hover{
+    transform: scale(2);
+
+}
+
+
+
+
+/*footer*/
+footer{
+    background-color: whitesmoke;
+    font-family: 'Libre Barcode 39 Text';
+}
