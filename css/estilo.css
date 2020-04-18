@@ -11,15 +11,15 @@ body{
 #video{
     background-image:url("img/subway.gif");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     
     
 }
 .slider1 {
-  padding-right: 70%;
+  padding-right: 50%;
 }
 .slider2{
-  margin-left: 100%;
+  margin-left: 50%;
 }
 nav li {
   display: inline;
@@ -28,12 +28,19 @@ nav li {
 .navbar{
     background-color: whitesmoke;
 }
+
+
 /*Presentasion*/
 header h1{
     color:whitesmoke;
+    font-family: roboto;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 6px 6px #231f20;
+    ;
 }
 header{
-    color: yellow;
+    color: whitesmoke;
     font-family: roboto;
 }
 
@@ -41,8 +48,10 @@ header{
 
 /*Portfolio*/
 #Port h1{
-    color: yellow;
+    color: #ffe06c;
     padding: 50%;
+    font-family: cairo;
+    letter-spacing: 5px;
 }
 #slider1{
     padding-top: 30%;
@@ -67,23 +76,42 @@ header{
     background-image: url(img/matrix.gif);
     background-size: cover;
 }
-#Habilidades h2{
-    color: yellow;
+
+
+
+/*Testimonios*/
+#Testimonios{
+
 }
-i{
+
+/*Fin Testimonios*/
+
+/*Contacto*/
+#Contactos{
+    background-color: black;
+}
+#Icont{
+    transition:  0,8s ;
     color: whitesmoke;
-    transition: all .5s ease;
 }
-i :hover{
-    transform: scale(2);
-
+#Icont :hover{
+    transform: scale(1.4);
+   
 }
-
-
+/*Fin Contacto/
 
 
 /*footer*/
 footer{
     background-color: whitesmoke;
     font-family: 'Libre Barcode 39 Text';
+}
+/*Fin footer*/
+/*231f20*/
+/*TITULOS*/
+h2{
+    color: #ffe06c;
+    font-family: cairo;
+    letter-spacing: 5px;
+
 }

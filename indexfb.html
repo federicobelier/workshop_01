@@ -7,7 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Nosifer&family=Roboto&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Nosifer&family=Roboto&family=Kanit:wght@600&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="hamburgers/hamburgers.css">
     <script src="https://kit.fontawesome.com/3447dc54e6.js" crossorigin="anonymous"></script>
     <title>Federico Belier</title>
   </head>
@@ -54,11 +57,11 @@
                 <figure class="col-sm-12 col-md-6 p-3 pt-3 text-center">
                     <img src="https://source.unsplash.com/300x300/?robot"  class="img-fluid rounded" alt="Responsive image">
                 </figure>
-                <header class="col-sm-12 col-md-6 p-3 pt-5 text-center">
-                    <h1>Federico Belier</h1>
+                <header class="col-sm-12 col-md-6 p-1 pt-5 text-center">
+                    <h1 class="display-3">Federico Belier</h1>
                     <br>
-                    <div class="p-4">
-                      <h3>Fullstack Developer</h3>
+                    <div class="pt-2 pb-5">
+                      <h2>Fullstack Developer</h2>
                       <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda vitae recusandae hic quisquam, quae magnam possimus nemo ex laboriosam! Nulla temporibus beatae voluptatem? Reiciendis beatae perferendis illum cupiditate ab?</p>
                     </div>
                 </header>
@@ -70,15 +73,16 @@
   
 
     <!--Inicio Portfolio-->
-    <section class="container-fluid d-sm-none d-md-block w-100" id="portfolio">
+    <section class="container-fluid d-sm-none d-md-block w-75 p-5" id="portfolio">
       <div class="row">
         <div class="col-md-4" id="Port">
           <a class="links" href="#"><h1>Portfolio</h1></a>
 
         </div>
+        <!---->
         <div class="col-md-4">
-          <div id="slider1">
-            <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
+          <div class=" d-flex justify-content-center" id="slider1">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img class="d-block " src="https://source.unsplash.com/300x300/?robot" alt="First slide">
@@ -93,7 +97,7 @@
             </div>
           </div>  
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="d-flex justify-content-center" id="slider2">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
@@ -117,35 +121,35 @@
     <!--Inicio Habilidades-->
     <section class="container-fluid  d-sm-none d-md-block" id="Habilidades">
       <div class="col-12 text-center">
-        <h2 class="pt-5 pb-5">Habilidades</h2>
+        <h2 class="pt-5 pb-5"> Habilidades</h2>
       </div>
       <div class="row pb-5  display-4">
         <div class="col-2 text-center">
-          <i class="fab fa-html5" title="HTML 5"></i>
+          <a href="#"id="Icont"><i class="fab fa-html5"  title="HTML 5"></i></a>
         </div>
         <div class="col-2 text-center">
-          <i class="fab fa-css3-alt" title="CSS 3"></i>
+          <a href="#"id="Icont"><i class="fab fa-css3-alt" title="CSS 3"></i></a>
           
         </div>
         <div class="col-2 text-center">
-          <i class="fab fa-node-js" title="JavaScript"></i>
+          <a href="#"id="Icont"><i class="fab fa-node-js" title="JavaScript"></i></a>
         </div>
         <div class="col-2 text-center">
-          <i class="fab fa-python" title="Python"></i>
+          <a href="#"id="Icont"><i class="fab fa-python" title="Python"></i></a>
         </div>
         <div class="col-2 text-center">
-          <i class="fab fa-adobe" title="Adobe"></i>
+          <a href="#"id="Icont"> <i class="fab fa-adobe" title="Adobe"></i></a>
         </div>
         <div class="col-2 text-center m-0">
-          <i class="fab fa-bootstrap" data-placement="bottom" data-toggle="tooltip" title="Bootstrap"></i>
+          <a href="#"id="Icont"><i class="fab fa-bootstrap" data-placement="bottom" data-toggle="tooltip" title="Bootstrap"></i></a>
         </div>
       </div>
     </section>
     <!--Fin Habilidades-->
     
     <!--Inicio Testimonios-->
-    <section class="container-fluid d-sm-none d-md-block w-75" id="Testimonios">
-      <h1 class="text-center pt-5 py-3">Testimonios</h1>
+    <section class="container-fluid d-sm-none d-md-block w-75 p-5" id="Testimonios">
+      <h2 class="text-center pt-5 py-3">Testimonios</h2>
       <div id="carouselExampleCaptions" class="carousel slide justify-content-center" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -180,16 +184,16 @@
     <!--Fin Testimonio-->
 
     <!--Inicio Contacto-->
-    <section class="container-fluid  d-sm-none d-md-block">
+    <section class="container-fluid  d-sm-none d-md-block w-100" id="Contactos">
       <div class="col-12 text-center">
         <h2 class="py-5 text-center">Contacto</h2>
       </div>
       <nav class="row pb-5 justify-content-center h2 ">
         <ul>
-            <li><a href="#"><i class="fab fa-github" title="GitHub"></i></a></li>
-            <li><a href="#"><i class="fas fa-envelope" title="Email"></i></a></li>
-            <li><a href="#"><i class="fab fa-whatsapp" title="WhatsApp"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin" title="LinkedIn"></i></a></li>
+            <li><a href="#" id="Icont"><i class="fab fa-github" id="Icont" title="GitHub"></i></a></li>
+            <li><a href="#"id="Icont"><i class="fas fa-envelope" id="Icont" title="Email"></i></a></li>
+            <li><a href="#"id="Icont"><i class="fab fa-whatsapp"  id="Icont"title="WhatsApp"></i></a></li>
+            <li><a href="#"id="Icont"><i class="fab fa-linkedin" id="Icont" title="LinkedIn"></i></a></li>
         </ul>
       </nav>
   </section>
